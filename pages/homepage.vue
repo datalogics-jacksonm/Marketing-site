@@ -59,8 +59,8 @@
     <div class="min-h-full w-full mx-8 lg:max-w-5xl lg:mx-auto pb-24 pt-24">
       <LowCodeTools 
         :lowCodePosts="lowCodePosts"
-        :title_css="''"
-        :body_css="''"
+        :title_css="'text-3xl font-filson font-semibold text-white pb-3'"
+        :body_css="'text-base font-normal font-venn font-light'"
       />
     </div>
 
