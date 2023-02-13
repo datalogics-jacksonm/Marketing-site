@@ -53,7 +53,7 @@
               class="hover:bg-accent hover:contrast-100 transition-all duration-250 ease-in-out"
             >
               <NuxtLink
-                to="/"
+                to="/repair-pdf-files"
               >
                 Specialized Utiliites
               </NuxtLink>
