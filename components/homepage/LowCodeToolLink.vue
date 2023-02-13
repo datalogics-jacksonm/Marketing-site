@@ -15,6 +15,8 @@
             <TitleBody 
               :title="post.title"
               :body="post.html"
+              :title_css="title_css"
+              :body_css="body_css"
               class="grow"
             />
           </div>
@@ -33,6 +35,14 @@ export default Vue.extend({
       type: Object,
       required: false,
     },
+    title_css: {
+      type: String,
+      required: false
+    },
+    body_css: {
+      type: String,
+      required: false
+    }
   },
   components: { TitleBody },
 })
